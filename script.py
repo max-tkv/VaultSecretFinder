@@ -1,8 +1,5 @@
 import click as click
 import requests
-import urllib3
-
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 param_list = '?list=true'
 metadata_method = '/v1/secret/metadata/'
